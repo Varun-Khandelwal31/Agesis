@@ -1,0 +1,22 @@
+{
+  "name": "eldersteady-private",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy-first elderly fall detection with TinyFish live-context enrichment",
+  "scripts": {
+    "dev": "pnpm --filter @eldersteady/web dev",
+    "build": "pnpm --filter @eldersteady/web build",
+    "start": "pnpm --filter @eldersteady/web start",
+    "lint": "pnpm --filter @eldersteady/web lint"
+  },
+  "keywords": [
+    "edge-ai",
+    "fall-detection",
+    "tinyfish",
+    "privacy-first",
+    "r3f",
+    "yolov8-pose"
+  ],
+  "author": "ElderSteady Team",
+  "license": "MIT"
+}

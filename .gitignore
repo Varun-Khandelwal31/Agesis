@@ -1,0 +1,24 @@
+node_modules
+.next
+out
+build
+dist
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
