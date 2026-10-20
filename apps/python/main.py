@@ -23,10 +23,11 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger("eldersteady.server")
 
 app = FastAPI(
-    title="ElderSteady Edge Pose Backend",
+    title="Agesis Edge Pose Backend",
     description="Local YOLOv8n-pose processing and edge fall detection server",
     version="1.0.0"
 )
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -138,7 +139,7 @@ async def pose_processing_loop():
 async def health_check():
     return {
         "status": "online",
-        "service": "ElderSteady Pose Server",
+        "service": "Agesis Pose Server",
         "model": "YOLOv8n-pose",
         "target_production_chip": "SiMa Modalix MLA",
         "connected_clients": len(connected_clients),

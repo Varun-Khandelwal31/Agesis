@@ -205,12 +205,13 @@ export default function MonitorPage() {
           <div className="h-4 w-[1px] bg-border" />
           <div className="flex items-center gap-2">
             <span className="font-serif font-black text-lg text-header tracking-tight">
-              ElderSteady<span className="text-accent text-base">.private</span>
+              Agesis<span className="text-accent text-base">.ai</span>
             </span>
             <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-success-light text-success border border-success/30 font-semibold flex items-center gap-1">
               <ShieldCheck className="w-3 h-3" />
               <span>Camera Privacy Shield: ACTIVE</span>
             </span>
+
           </div>
         </div>
 
@@ -429,8 +430,9 @@ export default function MonitorPage() {
                       Anita Dixit's Family Caregiver Portal
                     </h2>
                     <p className="text-xs text-text-muted font-mono">
-                      Location: Indiranagar, Bangalore • Monitored via ElderSteady Private Edge
+                      Location: Indiranagar, Bangalore • Monitored via Agesis Edge
                     </p>
+
                   </div>
                 </div>
 

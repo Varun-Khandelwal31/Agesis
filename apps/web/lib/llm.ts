@@ -61,7 +61,7 @@ export async function synthesizeFamilyAlert(params: {
     try {
       const anthropic = new Anthropic({ apiKey });
 
-      const prompt = `You are ElderSteady's family alert synthesizer. A fall has been detected for an elderly parent. Synthesize the data into a single, calm, actionable family SMS alert.
+      const prompt = `You are Agesis's family alert synthesizer. A fall has been detected for an elderly parent. Synthesize the data into a single, calm, actionable family SMS alert.
 
 FALL EVENT:
 - Timestamp: ${timeStr}

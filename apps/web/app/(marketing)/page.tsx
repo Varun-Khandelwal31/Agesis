@@ -33,12 +33,13 @@ export default function LandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-bg/90 backdrop-blur-md border-b border-border/80 h-16 px-6 md:px-12 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="font-serif font-black text-xl text-header tracking-tight">
-            ElderSteady<span className="text-accent text-lg">.private</span>
+            Agesis<span className="text-accent text-lg">.ai</span>
           </span>
           <span className="hidden sm:inline-block text-[11px] font-mono px-2 py-0.5 rounded bg-section text-text-muted border border-border">
             + TinyFish Live Context
           </span>
         </div>
+
 
         <div className="flex items-center gap-4">
           <Link
@@ -85,7 +86,7 @@ export default function LandingPage() {
 
           <p className="text-base sm:text-lg text-text-muted leading-relaxed font-sans max-w-xl">
             Standard cameras upload live bedroom video to cloud servers—so parents cover them with towels. 
-            <strong> ElderSteady runs pose detection entirely on-device with zero video upload.</strong> When mom falls, 
+            <strong> Agesis runs pose detection entirely on-device with zero video upload.</strong> When mom falls, 
             <strong> TinyFish</strong> immediately checks live ER wait times, recalls her specific medicine, 
             and finds the closest ambulance before calling you.
           </p>
@@ -184,8 +185,9 @@ export default function LandingPage() {
                 When she falls, you get answers—not blind panic.
               </h3>
               <p className="text-xs text-text-muted leading-relaxed font-sans">
-                Standard cameras send you a terrifying "Motion detected" ping. ElderSteady runs verbal verification, 
+                Standard cameras send you a terrifying "Motion detected" ping. Agesis runs verbal verification, 
                 and TinyFish searches the web in 300ms to enrich the alert:
+
               </p>
               <ul className="text-xs text-text-muted space-y-1.5 font-sans">
                 <li className="flex items-center gap-2">

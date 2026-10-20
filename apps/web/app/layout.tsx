@@ -24,10 +24,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ElderSteady-Private + TinyFish — Privacy-First Elderly Fall Detection",
+  title: "Agesis — Privacy-First Elderly Fall Detection + TinyFish Live Context",
   description:
     "Privacy-first edge AI elderly fall detection with TinyFish live-context enrichment. Zero video leaves the room; 11 KB actionable context reaches the family.",
   keywords: [
+    "Agesis",
     "Elderly Fall Detection",
     "TinyFish",
     "Privacy First Edge AI",
@@ -35,6 +36,7 @@ export const metadata: Metadata = {
     "SiMa Modalix MLA",
   ],
 };
+
 
 export default function RootLayout({
   children,

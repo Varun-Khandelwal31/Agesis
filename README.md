@@ -14,8 +14,8 @@
 ## 1. What It Does
 
 Agesis is a privacy-first elderly fall-detection system designed to protect elderly parents living alone without intrusive cloud video surveillance. The system runs lightweight computer vision (YOLOv8n-pose) entirely locally on an edge device (laptop webcam for demo; SiMa Modalix MLA chip for production). The raw camera feed never leaves the room—zero pixels, audio clips, or biometric embeddings are transmitted to any cloud servers. Instead, on-device kinematic logic evaluates 17 skeletal joint coordinates, detecting sudden torso angle changes (>60°/s) and sustained floor presence (>3s) to verify falls.
+When a fall is confirmed, the system triggers the **TinyFish Live-Context Enrichment Layer**. Rather than sending an alarming generic "Fall detected!" message that triggers panic, Agesis executes 4 parallel TinyFish web queries to assemble actionable real-time context: nearby hospital ER wait times (Apollo Indiranagar), Central Drugs Standard Control Organisation (CDSCO) safety recall notices for the parent's medications, local 24/7 ambulance service response ETAs, and weather slip-risk factors. This context is synthesized via Claude Sonnet into a calm, factual family SMS (<180 chars) accompanied by an auditable 1:303 privacy receipt.
 
-When a fall is confirmed, the system triggers the **TinyFish Live-Context Enrichment Layer**. Rather than sending an alarming generic "Fall detected!" message that triggers panic, ElderSteady executes 4 parallel TinyFish web queries to assemble actionable real-time context: nearby hospital ER wait times (Apollo Indiranagar), Central Drugs Standard Control Organisation (CDSCO) safety recall notices for the parent's medications, local 24/7 ambulance service response ETAs, and weather slip-risk factors. This context is synthesized via Claude Sonnet into a calm, factual family SMS (<180 chars) accompanied by an auditable 1:303 privacy receipt.
 
 ---
 

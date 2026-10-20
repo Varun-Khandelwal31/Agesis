@@ -24,7 +24,7 @@ export function CameraDevice() {
         <meshStandardMaterial color="#504933" metalness={0.4} roughness={0.5} />
       </mesh>
 
-      {/* Main ElderSteady Enclosure */}
+      {/* Main Agesis Enclosure */}
       <mesh castShadow position={[0, 0, 0.1]}>
         <boxGeometry args={[0.3, 0.2, 0.25]} />
         <meshStandardMaterial color="#1a1a18" roughness={0.3} metalness={0.7} />
