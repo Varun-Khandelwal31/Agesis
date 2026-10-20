@@ -1,8 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "name": "eldersteady-private",
   "framework": "nextjs",
-  "installCommand": "pnpm install",
   "buildCommand": "pnpm --filter @eldersteady/web build",
   "outputDirectory": "apps/web/.next"
 }
