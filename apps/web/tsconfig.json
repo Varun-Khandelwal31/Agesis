@@ -20,7 +20,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@eldersteady/shared-types": ["../../packages/shared-types/index.ts"]
+      "@eldersteady/shared-types": ["./types/index.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
